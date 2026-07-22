@@ -1,11 +1,11 @@
-# 🗄️ SQL Relational Database & Sales Performance Analysis
+# SQL Relational Database & Sales Performance Analysis
 
-## 📌 Business Scenario
+## Business Scenario
 This project demonstrates relational database creation, data normalization, and advanced querying in SQL. It models retail transaction records across multiple store branches and regions to extract revenue insights and transaction averages.
 
 ---
 
-## 🛠️ Key SQL Techniques Applied
+## Key SQL Techniques Applied
 * **Schema Design & DDL:** Defined primary/foreign key relationships (`CREATE TABLE`, `FOREIGN KEY`).
 * **Multi-Table Joins:** Integrated `Sales` and `Stores` entities using `INNER JOIN`.
 * **Aggregations & Grouping:** Used `SUM()`, `COUNT()`, `AVG()`, and `GROUP BY` to summarize performance across categories and regions.
@@ -13,7 +13,7 @@ This project demonstrates relational database creation, data normalization, and 
 
 ---
 
-## 🔍 Key Business Insights
+## Key Business Insights
 
 * **Top Revenue Region:** **South Region (London West)** led overall sales, driven primarily by high-value **Electronics** transactions (£890.00 average ticket size).
 * **Highest Transaction Volume:** **Midlands (Birmingham Central)** recorded the most balanced distribution across Electronics, Clothing, and Beauty categories.
@@ -21,7 +21,7 @@ This project demonstrates relational database creation, data normalization, and 
 
 ---
 
-## 💻 Sample SQL Query
+## Sample SQL Query
 ```sql
 SELECT 
     st.Region,
